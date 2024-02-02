@@ -8,4 +8,4 @@ const ParentComp = () => {
     ></ChildrenComp>
   );
 };
-export default Parents;
+export default ParentComp;
