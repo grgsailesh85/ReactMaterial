@@ -3,7 +3,7 @@ const Input = ({ handleOnChange }) => {
     <>
       <input
         type="text"
-        placeholder="Enter Some text"
+        placeholder="Enter Some Text"
         onKeyDown={handleOnChange}
       />
       {/* <textarea
