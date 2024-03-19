@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { AiFillDelete } from "react-icons/ai";
+// import { AiFillDelete } from "react-icons/ai";
 import { PostList } from "../store/post-list-store";
 
 const Post = ({ post }) => {
@@ -11,10 +11,11 @@ const Post = ({ post }) => {
         <h5 className="card-title">
           {post.title}
           <span
-            className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+            className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger deleteBtn"
             onClick={() => deletePost(post.id)}
           >
-            <AiFillDelete />
+            {/* <AiFillDelete /> */}
+            <p>Delete</p>
           </span>
         </h5>
         <p className="card-text">{post.body}</p>
